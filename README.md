@@ -38,6 +38,7 @@ sudo docker run -ti  --gpus all -v $(pwd):/evolveGCN  gcn_env:latest
 Set --config_file with a yaml configuration file to run the experiments. For example:
 
 ```sh
+cd Graph-Evolved Transformer
 python run_exp.py --config_file ./experiments/parameters_example.yaml
 ```
 

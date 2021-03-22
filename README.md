@@ -4,7 +4,7 @@ This is the source code for the Master thesis Graph-Evolved Transformer for Dyna
 # Graph-Evolved Transformer for Dynamic Network Representation
 This study presents a novel graph representation which tightly integrates the information sources of node embedding and weight matrix in graph learning representation. A new way to updating parameters is proposed by using the transformer decoder rather than using LSTM or GRU. In particular, the positional embedding and masked attention are not required in this setting. The graph structural data are therefore merged in transformer. In addition, the adjacency matrix in each graph structural data is obtained to represent the position information. In learning procedure, the input sample at each time step is only formed by a graph snapshot. Mask module is therefore not required. We build two attention layers, one is to calculate the weight matrix in GNN and the other is to estimate node embedding and weight matrix. The first attention layer is to perform self-attention for weight matrix in GNN. The second attention layer is to find cross attention where both weight matrix and node embedding in GNN are considered. Model robustness can be improved according to these attention layers. Experiments on financial prediction show the merit of the proposed method for temporal information representation based on the evolutionary graph embedded transformer.
 
-![image](https://github.com/NCTU-MLLab/Chia-Wei-Tsao-Graph-Evolved-Transformer-for-Dynamic-Network-Representation/blob/main/1layer.png)
+![image](https://github.com/NCTUMLLab/Chia-Wei-Tsao-Graph-Evolved-Transformer-for-Dynamic-Network-Representation/blob/main/1layer.png)
 
 # Getting Start
 ## Environment
